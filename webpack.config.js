@@ -41,6 +41,7 @@ module.exports = {
         new ExtractTextPlugin("style.css")
       ],
     devtool: "source-map",
+    devtool: 'inline-source-map',
     resolve:{
         extensions:[".js", ".ts", ".tsx"]
     }
